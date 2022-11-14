@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces">
+
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+    }
+
+    h1,
+    .price {
+      font-family: 'Fraunces', serif;
+      font-weight: 900;
+    }
+
+    button {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+    }
+
+  </style>
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+  </style>
+</head>
+
+<body class="bg-stone-50 h-fit flex justify-center items-center ">
+  <div
+    class="flex justify-center items-center flex-col md:flex-row max-w-xs md:max-w-lg bg-white rounded-md overflow-clip shadow-xl shadow-neutral-300/50 mt-12 md:mt-24">
+    <img class="block md:hidden" src="./images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfum bottle">
+    <img class="hidden md:block max-h-96" src="./images/image-product-desktop.jpg"
+      alt="Gabrielle Essence Eau De Parfum bottle">
+    <div class="text-left flex flex-col px-6 pb-6">
+      <span class="uppercase text-[.6em] tracking-[.45em] text-neutral-400 pt-5 pb-3 font-bold">Perfume</span>
+
+      <h1 class="text-3xl font-black tracking-tighter leading-none pr-4">Gabrielle Essence Eau De Parfum</h1>
+
+      <p class="py-4 text-[0.8em]">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator
+        for the
+        House of CHANEL.</p>
+
+      <div class="flex flex-row items-center pb-4 gap-x-4">
+        <span class="price text-3xl font-black text-emerald-800/70">$149.99</span>
+        <span class="text-xs line-through">$169.99</span>
+      </div>
+
+      <button class="w-full py-3 bg-emerald-800/70 rounded-md text-white text-xs flex flex-row justify-center gap-x-2">
+        <img src="./images/icon-cart.svg" alt="">
+        <span>Add to Cart</span>
+      </button>
+    </div>
+  </div>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>
