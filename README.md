@@ -10,8 +10,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
+  - [Process](#process)
+  - [Proposed solution](#proposed-solution)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/goodreds/product-preview-card-component-main](https://github.com/goodreds/product-preview-card-component-main)
+- Live Site URL: [https://gd-product-preview-card-component.netlify.app/](https://gd-product-preview-card-component.netlify.app/)
 
 ## My process
 
@@ -47,7 +47,7 @@ Users should be able to:
 
 This exercise utilises the change of flex direction to handle the different card layouts at varying screen sizes.
 
-## Proposed solution
+### Proposed solution
 ```html
 <div
     class="flex justify-center items-center flex-col md:flex-row max-w-xs md:max-w-lg bg-white rounded-md overflow-clip shadow-xl shadow-neutral-300/50 mt-12 md:mt-24">
